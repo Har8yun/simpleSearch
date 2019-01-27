@@ -1,0 +1,48 @@
+.flexContainer {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	width: 250px;
+	height: 54px;
+	box-sizing: border-box;
+	padding: 2px;
+	background: #eee;
+	margin: 3px auto;
+	justify-content: center;
+	font-size: 11px;
+	cursor: pointer;
+	
+}
+
+.textEllipsis{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.flexContainer p {
+	margin: 0;
+	text-align: left;
+}
+
+.flexWrap {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.deleteIcon {
+	position: absolute;
+	color: red;
+	top: 0;
+	left: 97%;
+	font-size: 15px;
+	background: #fff;
+	border-radius: 15px;
+	padding: 3px;
+	z-index: 999;
+}
+
+.img {
+	width: 50px;
+	margin-right:5px;
+}

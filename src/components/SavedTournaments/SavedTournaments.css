@@ -1,0 +1,12 @@
+.savedTournamentsContainer {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 10px auto;
+	overflow: auto;
+	max-width: 600px;
+	min-width: 300px;
+	background: #ccc;
+	max-height: 700px;
+	padding: 5px;
+	box-sizing: border-box;
+}
